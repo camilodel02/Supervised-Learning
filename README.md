@@ -1,1 +1,1 @@
-Supervised models just to practice and improve skills. I downloaded the dataset from Kaggle, there you can find a lot of datasets to train models
+In this repository you will find Supervised models I have developed. I downloaded the datasets from Kaggle.
