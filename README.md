@@ -1,1 +1,8 @@
-In this repository you will find Supervised models I have developed. I downloaded the datasets from Kaggle.
+# Supervised Learning Projects
+
+A collection of supervised learning exercises and mini-projects.
+
+## 📁 Projects
+
+- [Gradient Descentg](./Linear_Regression)
+- [ClothesSales_Prediction](./WomenClothesSales_Prediction).
