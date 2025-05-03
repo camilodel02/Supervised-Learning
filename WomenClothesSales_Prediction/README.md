@@ -43,12 +43,12 @@ Each model was integrated in the same workflow to ensure fair comparison:
 ## Results
 Below is a summary of test-set performance for each model (example values):
 
-| Model                 | MSE    | MAE    | RMSE   | R²     |
-|-----------------------|--------|--------|--------|--------|
-| OLS LinearRegression  | 0.45   | 0.50   | 0.67   | 0.62   |
-| Ridge (α=1e6)         | 0.42   | 0.48   | 0.65   | 0.65   |
-| Lasso (α=1000)        | 0.44   | 0.49   | 0.66   | 0.63   |
-| Elastic Net (α=100, ρ=0.4) | 0.43 | 0.48 | 0.66 | 0.64 |
+| Model                 | MSE           | MAE        | RMSE       | R²         |
+|-----------------------|---------------|------------|------------|------------|
+| OLS LinearRegression  | 436017342.49  | 16771.99   | 20881.03   | -0.39      |
+| Ridge (α=1e6)         | 312485522.71  | 14292.11   | 17677.26   | 9.94e-06   |
+| Lasso (α=1000)        | 406714683.04  | 16208.88   | 20167.17   | -0.30      |
+| Elastic Net (α=100, ρ=0.4) | 312498215.25 | 14289.29 | 17677.62 | -3.07e-05  |
 
 Ridge Regression achieved the lowest MSE and highest R², and was chosen to generate final predictions.
 
