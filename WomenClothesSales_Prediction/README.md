@@ -69,3 +69,6 @@ Ridge Regression achieved the lowest MSE and highest R², and was chosen to gene
 
 ---
 *This README summarizes the end-to-end framework used to train, compare, and select linear regression models. Adapt hyperparameters and feature sets as needed for new datasets.*
+# References
+[Kaggle Contest 2025 - 1: Machine Learning Principles: Regression](https://www.kaggle.com/competitions/principios-de-machine-learning-regresion-2501/overview)
+
