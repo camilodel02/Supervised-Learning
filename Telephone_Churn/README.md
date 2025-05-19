@@ -32,8 +32,8 @@ This project implements an end-to-end predictive modeling pipeline to forecast c
   3. Fit models on training data  
   4. Predict on test set  
   5. Compute Accuracy, ROC AUC, AUC
-###Results Comparison:
-[preview](logR.png)
+### Results Comparison:
+[](Telephone_Churn/SVM.jpg) |  [](Telephone_Churn/LogR.jpg)
 - **Best Model**: SVM (Accuracy: 0.7549, AUC: 0.82) :contentReference[oaicite:7]{index=7}.  
 
 ## Deployment & Retention Strategies
