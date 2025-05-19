@@ -32,9 +32,9 @@ This project implements an end-to-end predictive modeling pipeline to forecast c
   3. Fit models on training data  
   4. Predict on test set  
   5. Compute Accuracy, ROC AUC, AUC
-### Results Comparison:
+## Results Comparison:
 ![SVM](https://github.com/camilodel02/Supervised-Learning/blob/main/Telephone_Churn/SVM.jpg) |  ![LogR](https://github.com/camilodel02/Supervised-Learning/blob/main/Telephone_Churn/LogR.jpg)
-- **Best Model**: SVM (Accuracy: 0.7549, AUC: 0.82) :contentReference[oaicite:7]{index=7}.  
+**Best Model**: SVM (Accuracy: 0.7549, AUC: 0.82) .  
 
 ## Deployment & Retention Strategies
 1. **Proactive Retention Program**: Automatically trigger VIP support and personalized offers for high-risk customers.  
@@ -46,3 +46,5 @@ This project implements an end-to-end predictive modeling pipeline to forecast c
    ```bash
    git clone https://github.com/your-username/churn-retention.git
    cd churn-retention
+## References: [Kaggle Competion 2025-01 Churn](https://www.kaggle.com/competitions/retencion-en-telefonia-movil-2501) 
+## Authors: María Narváez - Camilo Delgado | Pontitificia Universidad Javeriana
