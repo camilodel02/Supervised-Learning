@@ -33,7 +33,7 @@ This project implements an end-to-end predictive modeling pipeline to forecast c
   4. Predict on test set  
   5. Compute Accuracy, ROC AUC, AUC
 ### Results Comparison:
-![SVM](Telephone_Churn/SVM.jpg) |  ![LogR](Telephone_Churn/LogR.jpg)
+![SVM](https://github.com/camilodel02/Supervised-Learning/blob/main/Telephone_Churn/SVM.jpg) |  ![LogR](https://github.com/camilodel02/Supervised-Learning/blob/main/Telephone_Churn/LogR.jpg)
 - **Best Model**: SVM (Accuracy: 0.7549, AUC: 0.82) :contentReference[oaicite:7]{index=7}.  
 
 ## Deployment & Retention Strategies
