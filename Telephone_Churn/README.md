@@ -47,7 +47,7 @@ This project implements an end-to-end predictive modeling pipeline to forecast c
 ## How to Run
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/churn-retention.git
+   git clone https://github.com/camilodel02/Supervised-Learning/tree/main/Telephone_Churn
    cd churn-retention
 ## References: 
 [Kaggle Competion 2025-01 Churn](https://www.kaggle.com/competitions/retencion-en-telefonia-movil-2501) 
