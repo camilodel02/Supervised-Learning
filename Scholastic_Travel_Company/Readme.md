@@ -8,7 +8,7 @@ The workflow includes Exploratory Data Analysis (EDA), preprocessing, categorica
 
 ## 📂 Files
 - `SVM_CamiloDelgado.ipynb`: Main notebook with full project development.
-- `STC_dataset.csv`: Dataset used.
+- `03 CSV data -- STC(A)_numerical dates.csv`: Dataset used.
 
 ## 🔄 Workflow
 1. **Exploratory Data Analysis (EDA)**
