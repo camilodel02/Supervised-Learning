@@ -11,7 +11,7 @@ A collection of supervised learning exercises and mini-projects.
   - Ordinary Least Squares
   - Ridge
   - Lasso
-  - Elasctinet
+  - Elascticnet
 - Logistic Regression
-    - GridSearch for hyperparameter search
+    - GridSearch for hyperparameter tuning
 - SVM
