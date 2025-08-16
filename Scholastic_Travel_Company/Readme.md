@@ -37,7 +37,7 @@ The workflow includes Exploratory Data Analysis (EDA), data preprocessing, categ
 ---
 
 ## 📊 Key Results
-- Best value of **C** found with GridSearch: **`C = 1`** (update with your notebook result).  
+- Best value of **C** found with GridSearch: **`C = 1`**.  
 - Model accuracy: **78%**  
 - Balanced sensitivity and specificity, with an AUC of **85%**  
 ![ROC Curve](ROC_AUC.png)
