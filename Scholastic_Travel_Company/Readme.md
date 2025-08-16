@@ -1,44 +1,47 @@
-# Support Vector Machine (SVM) - Retention in Scholastic Travel Company
-**Author:** Camilo Delgado Burbano  
+# Support Vector Machine (SVM) – Retention in Scholastic Travel Company
 
-## 📌 Project Description
-This project implements a **Support Vector Machine (SVM)** model to predict student retention based on a dataset with 62 variables and 2389 rows.  
-The workflow includes Exploratory Data Analysis (EDA), data preprocessing, categorical variable encoding, model training, hyperparameter tuning with GridSearchCV, and performance evaluation.  
+📌 **Author:** Camilo Delgado Burbano  
 
----
+## 📖 Project Description
+This project implements a Support Vector Machine (SVM) model to predict student retention based on a dataset with 68 features and 2388 records.  
+The workflow includes Exploratory Data Analysis (EDA), preprocessing, categorical variable encoding, model training, hyperparameter tuning with GridSearchCV, and performance evaluation.
 
 ## 📂 Files
-- `SVM_CamiloDelgado.ipynb`: Main notebook with the full development of the assignment.  
-- `03 CSV data -- STC(A)_numerical dates.csv`: Dataset used.-
----
+- `SVM_CamiloDelgado.ipynb`: Main notebook with full project development.
+- `STC_dataset.csv`: Dataset used.
 
-## ⚙️ Workflow
+## 🔄 Workflow
 1. **Exploratory Data Analysis (EDA)**
-   - Review of variable types.  
-   - Handling of missing values.  
-   - Encoding categorical variables (One Hot Encoding).  
+   - Variable inspection and cleaning
+   - Handling missing values
+   - Boxplots for outlier detection (e.g., FPP vs Retention)
 
 2. **Preprocessing**
-   - Data normalization using `StandardScaler`.  
-   - Train-test split.  
+   - Data normalization with `StandardScaler`
+   - Train-test split
 
 3. **Model Training**
-   - Implementation of **SVM** with linear and radial kernels.  
+   - Implementation of SVM with linear and radial kernels
 
-4. **Hyperparameter Optimization with GridSearchCV**
-   - Tuning of the `C` parameter.  
-   - Cross-validation to select the best model.  
+4. **Hyperparameter Optimization**
+   - GridSearchCV for tuning C and γ parameters
+   - Cross-validation for model selection
 
 5. **Evaluation**
-   - Confusion matrix.  
-   - Metrics: Accuracy, Sensitivity, Specificity, Positive Predictive Value (PPV), Negative Predictive Value (NPV).  
-   - ROC curve and AUC score.  
-
----
+   - Confusion matrix
+   - Accuracy, Sensitivity, Specificity
+   - ROC curve and AUC score
 
 ## 📊 Key Results
-- Best value of **C** found with GridSearch: **`C = 1`**.  
-- Model accuracy: **78%**  
-- Balanced sensitivity and specificity, with an AUC of **85%**  
-![ROC Curve](ROC_AUC.png)
+- Best model: **SVM with GridSearchCV (C=1, γ=0.1, kernel=rbf)**
+- Accuracy: **83%**
+- ROC AUC: **86%**
+- Balanced sensitivity and specificity, reducing false positives.
 
+## 🚀 Insights
+- FPP variable showed higher values for retained students.
+- GridSearchCV significantly improved performance over default parameters.
+- This kind of model could help institutions predict dropout risks.
+
+## ⚡ Personal Note
+Through this project, I strengthened my understanding of SVMs, hyperparameter tuning, and the importance of preprocessing categorical data.
