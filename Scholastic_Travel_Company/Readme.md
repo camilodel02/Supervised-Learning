@@ -1,4 +1,4 @@
-# Support Vector Machine (SVM) - Assignment 1  
+# Support Vector Machine (SVM) - Retention in Scholastic Travel Company
 **Author:** Camilo Delgado Burbano  
 
 ## 📌 Project Description
